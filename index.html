@@ -137,32 +137,86 @@
 						<!-- Research -->
 							<article id="research">
 							    <span class="image main"><img src="images/research.jpeg" alt="" /></span>
-							    <h2 class="major">Research Statement</h2>
+							    <h2 class="major">Research Overview</h2>
 							    <p>
-								Complex systems such as the brain, artificial neural networks, and interactive agents have a common necessity to be able to function that is processing information. These systems perform their computation by processing huge amounts of information: storing (e.g. memorization), transferring (e.g. communication), or modifying it (e.g. perception or decision making). Therefore, one methodology to understand these systems is by inspecting them through the information processing lens. Information theory lends itself as a mathematical framework that enables information processing probing of complex systems. 
+									A central focus of my research is studying intelligent 
+									systems, including the brain, artificial neural networks
+									(ANNs), and interactive agents. These systems perform a 
+									multitude of tasks across various modalities such as 
+									perception, memorization, decision-making and communication. 
+									A unifying mathematical language capable of describing 
+									computation in such tasks—without being limited to a 
+									specific learning paradigm or implementation—is 
+									information theory. Although originally developed to 
+									establish the mathematical foundation of communication 
+									channels, information theory has been extended in my 
+									research to go beyond the channel perspective and contribute 
+									to the development of an Information theory of computation 
+									in AI systems. This extension has enabled us, on one hand 
+									to develop a novel AI framework in which ANNs learn a 
+									variety of tasks using only interpretable information-theoretic 
+									learning rules (Makkeh et al., 2025; Schneider et al., 2025), 
+									and on the other hand, to analyze certain ANNs and 
+									reinforcement learning agents, revealing the information-theoretic 
+									nature of computation that emerges during learning 
+									(Engel et al., 2022; Ehrlich et al., 2023). 
+									Information theory of computation in AI systems offers 
+									promising pathways to advance the mathematical foundation 
+									of machine learning.
 							    </p>
+								
+								<h2 class="major">Current Work</h2>
 							    <p>
-								My research is mainly driven by the aim of enhancing the capability of information theory in studying complex systems. This prompts two main research directions
+									I am employing Information theory of computation in AI 
+									systems to enhance the mechanistic interpretability 
+									of LLMs. 
+									(<a href="https://github.com/Abzinger/sae_analysis">
+												Sneak peek at the code on GitHub
+												<span class="icon brands fa-github">
+												</span>
+											</a>)
+							    </p>
+								
+								<h2 class="major">Selected Publications</h2>
+							    <p>
+								For a full list of my publications, please check my 
+								 <a href="https://scholar.google.com/citations?user=i7Sn0mMAAAAJ&hl=en">
+									Google Scholar
+								</a> profile.
+							    </p>
 								<ul>
-								    <li>introducing novel approaches to recently established areas of information theory and
-								    <li>improving established techniques in information theory.
-								</ul>
-							    </p>
-							    <p>
-								The first research direction focuses on the recently established area of partial information decomposition (PID). This area of study permits to ask simple yet vital questions that have perplexed researchers for many years. For instance, PID allows us to answer what part of the system has unique information about certain inputs? Or how much the information in parts of a system are redundant or synergistic?
-							    </p>
-							    <p>
-								The second research direction has the goal of improving the estimation of the information quantities. This is important since one can mainly inquire about observables of these systems, then from this data infer certain information quantities in question, that in its turn would yield insights to the underlying principles that govern the function of the system. Therefore having reliable estimation methods is critical to the validity of information-theoretic analyses of complex systems.
-							    </p>
-							    <h2 class="major">Current Work</h2>
-							    <p>
-								Developing a measure for the information theoretic concept <i>Partial information Decomposition</i>. The aim is that this measure satisfies certain properties such as differentiability and locality so that it can be used in analysing neural systems to understand their global-local dichotomy of computation. 
-							    </p>
-							    <h2 class="major">Publications</h2>
-							    <p>
-								<h3>Journal Articles</h3>
-								<ul>
-								    <li><b>A Measure of the Complexity of Neural 
+									<li>
+										<b>A general framework for interpretable neural 
+											learning based on local information-theoretic 
+											goal functions.</b> <u>Abdullah Makkeh</u>, 
+											Marcel Graetz, Andreas C. Schneider, 
+											David A. Ehrlich, Viola Priesemann, and 
+											Michael Wibral. 
+											<a href="https://www.pnas.org/doi/full/10.1073/pnas.2408125122">
+												<i>PNAS</i> (2025)
+											</a>
+											<a href="https://gitlab.gwdg.de/wibral/infomorphic_networks">
+												Code on GitLab
+												<span class="icon brands fa-github">
+												</span>
+											</a>
+									</li>
+									<li>
+										<b>What should a neuron aim for? Designing local
+											objective functions based on information theory.
+										</b> Andreas C. Schneider, Valentin Neuhaus, 
+										David A. Ehrlich, <u>Abdullah Makkeh</u>, 
+										Alexander S. Ecker, Viola Priesemann, and 
+										Michael Wibral. 
+										<a href="https://openreview.net/pdf?id=CLE09ESvul">
+											<i>ICLR</i> (2025)
+										</a>
+										<a href="https://github.com/Priesemann-Group/Infomorphic_Networks">
+											Code on GitHub
+											<span class="icon brands fa-github"></span>
+										</a>
+									</li>
+									<li><b>A Measure of the Complexity of Neural 
 										Representations based on Partial Information 
 										Decomposition.</b>David A. Ehrlich, 
 										Andreas C. Schneider, Viola Priesemann, 
@@ -170,91 +224,66 @@
 										<a href="https://openreview.net/pdf?id=R8TU3pfzFr">
 											<i>TMLR </i>(2023)
 										</a>
-										<a href="https://github.com/Priesemann-Group/nninfo" class="icon brands fa-github">
-											<span class="label">Code on GitHub</span>
+										<a href="https://github.com/Priesemann-Group/nninfo">
+											Code on GitHub
+											<span class="icon brands fa-github"></span>
 										</a>
 									</li>
-
-								    <li><b>Quantifying Reinforcement-Learning Agent’s 
-										Autonomy, Reliance on Memory and Internalisation
-										 of the Environment.</b> 
-										 Anti Ingel, <u>Abdullah Makkeh</u>, Oriol 
-										 Corcoll, and Raul Vicente. 
-										 <a href="http://www.mdpi.com/1099-4300/24/3/401">
-											<i>Entropy</i> 2022 24(3)
+									<li><b>Introducing a differentiable measure of 
+										pointwise shared information.</b> 
+										<u>Abdullah Makkeh</u>, Aaron Gutknecht, and 
+										Michael Wibral. 
+										<a href="http://journals.aps.org/pre/abstract/10.1103/PhysRevE.103.032149">
+											<i>Physical Review E</i> (2021)
 										</a> 
-										<a href="http://github.com/antiingel/RL-agent-autonomy" class="icon brands fa-github">
-											<span class="label">Code on GitHub</span>
+										<a href="https://github.com/Abzinger/SxPID">
+											Code on GitHub
+											<span class="icon brands fa-github"></span>
 										</a>
 									</li>
-								    <li><b>Bits and Pieces: Understanding Information 
+									<li><b>Estimating the unique information of continuous 
+										variables.</b> Ari Pakman, Amin Nejatbakhsh, 
+										Dar Gilboa, <u>Abdullah Makkeh</u>,
+										Luca Mazzucato, Michael Wibral, Elad Schneidman. 
+										<a href=https://proceedings.neurips.cc/paper/2021/file/a9a1d5317a33ae8cef33961c34144f84-Paper.pdf>
+											<i>NeurIps</i> (2021)
+										</a>
+									<li><b>Bits and Pieces: Understanding Information 
 										Decomposition from Part-whole Relationships and 
 										Formal Logic.</b> Aaron Gutknecht, Michael 
 										Wibral, and <u>Abdullah Makkeh</u>.  
 										<a href="http://doi.org/10.1098/rspa.2021.0110">
 											<i>Proceedings of the Royal Society A</i> 
-											2021 477(2251):20210110
+											(2021)
 										</a>
 									</li>
-								    <li><b>Introducing a differentiable measure of 
-										pointwise shared information.</b> 
-										<u>Abdullah Makkeh</u>, Aaron Gutknecht, and 
-										Michael Wibral. 
-										<a href="http://journals.aps.org/pre/abstract/10.1103/PhysRevE.103.032149">
-											<i>Physical Review E</i> 2021 103(3)
-										</a> 
-										<a href="https://github.com/Abzinger/SxPID" class="icon brands fa-github">
-											<span class="label">Code on GitHub</span>
-										</a>
-									</li>
-
-								    <li><b>MAXENT3D_PID: An Estimator of the Maximum-Entropy Trivariate Partial Information Decomposition.</b> With <a href="http://scholar.google.com/citations?user=vNu4Sa8AAAAJ&hl=it"> Daniel Chicharro</a>, Dirk Oliver Theis, Raul Vicente. <a href="http://www.mdpi.com/1099-4300/21/9/862"><b>Entropy</b> 2019 21(9)</a> <a href="http://github.com/Abzinger/MAXENT3D_PID" class="icon brands fa-github"><span class="label">Code on GitHub</span></a>
-
-								    <li><b>BROJA_2PID: A Robust Estimator for Bivariate Partial Information Decomposition.</b> With Dirk Oliver Theis, Raul Vicente. <a href="http://www.mdpi.com/1099-4300/20/4/271/htm"><b>Entropy</b> 2018 20(4)</a> <a href="http://github.com/Abzinger/BROJA_2PID" class="icon brands fa-github"><span class="label">Code on GitHub</span></a>
-
-								    <li><b>Bivariate Partial Information Decomposition: The Optimization Perspective.</b> With Dirk Oliver Theis, Raul Vicente. <a href="http://www.mdpi.com/1099-4300/19/10/530"><b>Entropy</b> 2017 19(10)</a> <a href="http://github.com/Abzinger/BROJA-Bivariate-Partial_Information_Decomposition" class="icon brands fa-github"><span class="label">Code on GitHub</span></a>
 								</ul>
-								<h3>Publications in Peer-Review Conferences</h3>
-								<ul>
-								    <li>Estimating the unique information of continuous variables. With Ari Pakman, Amin Nejatbakhsh, Dar Gilboa, Luca Mazzucato, Michael Wibral, Elad Schneidman. <a href="http://proceedings.neurips.cc/paper/2021/hash/a9a1d5317a33ae8cef33961c34144f84-Abstract.html"><b>35th Conference on Neural Information Processing Systems</b> 2021</a>
-								    <li>Comparison of IP and CNF models for control of automated valet parking systems. With Dirk Oliver Theis. <b>International Conference on Optimization and Decision Science</b> (<a href="https://link.springer.com/chapter/10.1007/978-3-319-67308-0_24"> 2017 PROMS, volume 217</a>) <a href="https://github.com/Abzinger/crobots" class="icon brands fa-github"><span class="label">Code on GitHub</span></a>
-								    <li> The Graph of the Pedigree Polytope is Asymptotically Almost Complete (Ext.Abs.).  With Mozhgan Pourmoradnasseri, Dirk Oliver Theis. <b>Conference on Algorithms and Discrete Applied Mathematics</b> (<a href="https://link.springer.com/chapter/10.1007/978-3-319-53007-9_26">2017 LNCS, volume 10156</a>)
-
-								</ul>
-								<h3>Preprint</h3>
-								<ul>
-								    <li>A partial information decomposition for discrete and continuous variables. With Kyle Schick-Poland, Aaron Gutknecht, Patricia Wollstadt, Anja Sturm and Michael Wibral. <a href="http://arxiv.org/pdf/2106.12393">arXiv:2106.12393</a>
-								    <li>Partial Information Decomposition of Boolean Functions: a Fourier Analysis perspective. With Dirk Oliver Theis and Raul Vicente. <a href="http://arxiv.org/pdf/2010.06976">arXiv:2010.06976</a>
-								</ul>
-								<h3>Technical Reports</h3>
-								<ul>
-								    
-								    <li>Optimizing Partial Information Decompositions. With Dirk Oliver Theis. <a href="https://arxiv.org/abs/1802.03947">arXiv:1802.03947</a> <a href="https://github.com/Abzinger/Opt_PID" class="icon brands fa-github"><span class="label">Code on GitHub</span></a>
-									
-								    <li>On the Graph of the Pedigree Polytope. With Mozhgan Pourmoradnasseri, Dirk Oliver Theis. <a href="https://arxiv.org/abs/1611.08431">arXiv:1611.08431</a>
-								</ul>
-								<h3>PhD Thesis</h3>
-								<ul>
-								    <li> PhD Thesis: <a href="https://dspace.ut.ee/handle/10062/61143"> Applications of Optimization in Some Complex Systems</a> (Defended August 2018)
-								</ul>
-							    </p>
 							</article>
 							
 						<!-- Teaching -->
 							<article id="teaching">
 							    <h2 class="major">Teaching</h2>
 							    <span class="image main"><img src="images/teaching.jpg" alt="" /></span>
-							    <p>I taught during my PhD:</p>
-							    <p>
-								<h3>Fall 2016/17</h3>
+								<h3>Courses</h3>
 								<ul>
-								    <li>TA for Discrete Mathematics (MTAT.05.008)
-								  </ul>
-								<h3>Fall 2015/16</h3>
-								<ul>
-								    <li>TA for Discrete Mathematics (MTAT.05.008)
+									<li>
+										Introduction to Bayesian Inference and 
+										Information theory (Winter 24/25). Co-teaching 
+										with Prof. Michael Wibral.
+									</li>
+								    <li>
+										Discrete Mathematics (Fall 15/16 and 16/17). 
+										Co-teaching with Prof. Dirk Oliver Theis,
+									</li>
 								</ul>
-								</p>
+								<h3>Seminars</h3>
+								<ul>
+									<li>
+										Statistical Physics of Social and Neural Systems
+										(Winter 24/25). With other tutors 
+										(Seminar supervised by Prof. Viola Priesemann).
+									</li>
+								</ul>
 							</article>
 							
 						<!-- Contact -->
@@ -301,6 +330,11 @@
 							    <h2 class="major">Conferences</h2>
 							    <!-- <p style="font-size: 20px; color:#1F9AFE;"> -->
 								<p>
+									Since 2021, I have been involved in organizing the workshop 
+									“Methods of Information Theory in Computational 
+									Neuroscience” during the Annual Computational 
+									Neuroscience meeting (CNS). I have served twice as the chair of 
+									this workshop: 
 								    <ul>
 									<li>Chair of <a href="202107-CNS2021-ITW.html"> CNS*2021 Workshop on Methods of Information Theory in Computational Neuroscience</a>
 									<li>Chair of <a href="202307-CNS2023-ITW.html"> CNS*2023 Workshop on Methods of Information Theory in Computational Neuroscience</a>
@@ -588,7 +622,7 @@ desrecht/urhg/gesamt.pdf">http://www.gesetze-im-internet.de/bundesrecht/urhg/ges
 					
 					<!-- Footer -->
 					<footer id="footer">
-					    <p class="copyright">&copy; Abdullah Makkeh 2019. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					    <p class="copyright">&copy; Abdullah Makkeh 2025. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 					
 			</div>
